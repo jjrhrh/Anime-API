@@ -8,22 +8,21 @@ export type AnimeWebsiteConfig = WebsiteConfig & {
 
 type Websites = Record<string, AnimeWebsiteConfig>;
 
-// anime websites and their clones
 export const websites_collection: Websites = {
   AniWatch: {
-    BASE: "https://aniwatchtv.to",
+    BASE: "https://hianime.to",
     CLONES: {
       HiAnime: [
+        "https://hianime.sx",
+        "https://aniwatchtv.to",
         "https://hianimez.is",
         "https://hianimez.to",
         "https://hianime.nz",
-        "https://hianime.bz",
-        "https://hianime.pe",
       ],
     },
   },
   GogoAnime: {
-    BASE: "https://ww24.gogoanimes.fi",
+    BASE: "https://gogoanime3.co",
   },
   KickAssAnime: {
     BASE: "https://kickass-anime.ro",
