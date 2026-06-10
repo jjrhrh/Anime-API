@@ -22,7 +22,7 @@ export const websites_collection: Websites = {
     },
   },
   GogoAnime: {
-    BASE: "https://gogoanime3.co",
+    BASE: "https://anitaku.pe",
   },
   KickAssAnime: {
     BASE: "https://kickass-anime.ro",
